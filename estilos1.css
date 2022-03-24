@@ -1,0 +1,484 @@
+@import url(../css/reset.css);
+@import url(../css/fuentes.css);
+body {
+    background: url("../imagenes/fondo1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: transparent;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 1407px;
+    height: 1168px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/*--estilos al header--*/
+
+header {
+    max-height: 100px;
+    width: 100%;
+    float: left;
+    display: inline;
+    background-color: #273d54;
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9', GradientType=0);
+    /* IE6-9 */
+    box-shadow: 0px 3px 5px #000;
+    -moz-box-shadow: 0px 3px 5px #000;
+    -webkit-box-shadow: 0px 3px 5px #000;
+}
+
+#subheader {
+    width: 1406px;
+    margin: auto;
+}
+
+#logotipo {
+    width: 203px;
+    margin: auto;
+    display: inline;
+    float: left;
+}
+
+#logotipo img {
+    height: 44px;
+    width: 203px;
+    padding: 30px 1087px 35px 117px;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#logotipo a:hover {
+    text-decoration: none;
+}
+
+
+/*menu*/
+
+header #subheader nav {
+    float: center;
+    width: 960px;
+    padding: 34px 432px 18px 382px;
+    text-align: center;
+}
+
+header #subheader nav ul {
+    display: inline;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header #subheader nav ul li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#ni {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 173px;
+    height: 52px;
+}
+
+#ni button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    background-color: #4A4CE800;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FFFFFF;
+    padding: 10px 16px 10px 16px;
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 0px 0px 0px 0px rgb(128 128 128 / 16%);
+}
+
+header #subheader nav ul li a {
+    color: #fff;
+    float: center;
+    padding: 25px 20px 25px 13px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    letter-spacing: 0px;
+}
+
+header #subheader nav ul li a:hover {
+    color: #fff;
+    color: var(--accent-color);
+    color: red;
+    text-decoration: none;
+}
+
+header #subheader nav ul div button a {
+    display: center;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+header #subheader nav ul div button a:hover {
+    color: #fff;
+    color: var(--accent-color);
+    color: red;
+    text-decoration: none;
+}
+
+header #subheader nav ul div {
+    display: center;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+header #subheader nav ul div img {
+    display: center;
+    float: left;
+    display: block;
+    float: center;
+}
+
+
+/*contenido*/
+
+.titulo {
+    width: 100%;
+}
+
+.titulo h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 1.1em;
+    color: white;
+    float: right;
+    right: 390px;
+    position: relative;
+    align-items: center;
+    top: 18px;
+}
+
+
+/*primera caja con imagen*/
+
+.bloque1 {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 309px;
+    float: left;
+    height: 349px;
+    position: relative;
+    top: 190px;
+    color: black;
+}
+
+.bloque1 img {
+    width: 74px;
+    height: 75px;
+    left: 118px;
+    top: 28px;
+    position: relative;
+}
+
+.bloque1 p {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-left: 58px;
+    margin-top: 47px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+/*segunda caja con imagen*/
+
+.bloque2 {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 309px;
+    float: left;
+    height: 349px;
+    position: relative;
+    top: 190px;
+    color: black;
+    left: 132px;
+}
+
+.bloque2 img {
+    width: 74px;
+    height: 75px;
+    left: 118px;
+    top: 28px;
+    position: relative;
+}
+
+.bloque2 p {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-left: 51px;
+    margin-top: 39px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+/*Tercera Caja***/
+
+.bloque3 {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 309px;
+    float: left;
+    height: 349px;
+    position: relative;
+    top: 190px;
+    color: black;
+    left: 108px;
+}
+
+.bloque3 img {
+    width: 74px;
+    height: 75px;
+    left: 118px;
+    top: 28px;
+    position: relative;
+}
+
+.bloque3 p {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-left: 51px;
+    margin-top: 39px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+/*cuarta IMAGEN*****/
+
+.bloque4 {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 309px;
+    float: left;
+    height: 349px;
+    position: relative;
+    top: 190px;
+    color: black;
+    left: 108px;
+}
+
+.bloque4 img {
+    width: 74px;
+    height: 75px;
+    left: 118px;
+    top: 28px;
+    position: relative;
+}
+
+.bloque4 p {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-left: 51px;
+    margin-top: 39px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+/***Quinta Caja*/
+
+.bloque5 {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 309px;
+    float: left;
+    height: 349px;
+    position: relative;
+    top: 190px;
+    color: black;
+    left: 108px;
+}
+
+.bloque5 img {
+    width: 74px;
+    height: 75px;
+    left: 118px;
+    top: 28px;
+    position: relative;
+}
+
+.bloque5 p {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-left: 51px;
+    margin-top: 39px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+/*sexta Imagen*/
+
+.bloque6 {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 309px;
+    float: left;
+    height: 349px;
+    position: relative;
+    top: 190px;
+    color: black;
+    left: 108px;
+}
+
+.bloque6 img {
+    width: 74px;
+    height: 75px;
+    left: 118px;
+    top: 28px;
+    position: relative;
+}
+
+.bloque6 p {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-left: 51px;
+    margin-top: 39px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.contenedor {
+    width: 1100px;
+    height: 990px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*pie de pagina*/
+
+footer {
+    width: 1407px;
+    height: 72px;
+    background-color: #273d54;
+    margin-top: 987px;
+}
+
+#be {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 378px;
+    margin-top: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    float: left;
+    text-decoration: none;
+}
+
+.que {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 402px;
+    height: 72px;
+    background-color: #000;
+    margin-top: 987px;
+    margin-left: 1005px;
+}
+
+#nana {
+    width: 100%;
+    margin-left: 1075PX;
+    margin: auto;
+    display: inline;
+    float: left;
+}
+
+#nana .facebook {
+    height: 21px;
+    width: 17px;
+}
+
+#nana .facebook:hover {
+    text-decoration: none;
+}
+
+#nana .Twitter {
+    height: 17px;
+    width: 21px;
+}
+
+#nana .Twitter:hover {
+    text-decoration: none;
+}
+
+#nana .in {
+    height: 21px;
+    width: 17px;
+}
+
+#nana .in:hover {
+    text-decoration: none;
+}
+
+#nana .drive {
+    height: 16px;
+    width: 21px;
+}
+
+#nana .drive:hover {
+    text-decoration: none;
+}
+
+#nana .pro {
+    height: 17px;
+    width: 21px;
+}
+
+#nana .pro:hover {
+    text-decoration: none;
+}
+
+#nana .gmail {
+    height: 17px;
+    width: 21px;
+}
+
+#nana .gmail:hover {
+    text-decoration: none;
+}

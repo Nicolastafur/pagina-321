@@ -1,0 +1,467 @@
+@import url(reset.css);
+@import url(fuentes.css);
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 1407px;
+    height: 1168px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/*--estilos al header--*/
+
+header {
+    max-height: 100px;
+    width: 100%;
+    float: left;
+    display: inline;
+    background-color: #273d54;
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9', GradientType=0);
+    /* IE6-9 */
+    box-shadow: 0px 3px 5px #000;
+    -moz-box-shadow: 0px 3px 5px #000;
+    -webkit-box-shadow: 0px 3px 5px #000;
+}
+
+#subheader {
+    width: 1406px;
+    margin: auto;
+}
+
+#logotipo {
+    width: 203px;
+    margin: auto;
+    display: inline;
+    float: left;
+}
+
+#logotipo img {
+    height: 44px;
+    width: 203px;
+    padding: 30px 1087px 35px 117px;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#logotipo a:hover {
+    text-decoration: none;
+}
+
+
+/*menu*/
+
+header #subheader nav {
+    float: center;
+    width: 960px;
+    padding: 34px 432px 18px 382px;
+    text-align: center;
+}
+
+header #subheader nav ul {
+    display: inline;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header #subheader nav ul li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#ni {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 173px;
+    height: 52px;
+}
+
+#ni button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    background-color: #4A4CE800;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FFFFFF;
+    padding: 10px 16px 10px 16px;
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 0px 0px 0px 0px rgb(128 128 128 / 16%);
+}
+
+header #subheader nav ul li a {
+    color: #fff;
+    float: center;
+    padding: 25px 20px 25px 13px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    letter-spacing: 0px;
+}
+
+header #subheader nav ul li a:hover {
+    color: #fff;
+    color: var(--accent-color);
+    color: red;
+    text-decoration: none;
+}
+
+header #subheader nav ul div button a {
+    display: center;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+header #subheader nav ul div button a:hover {
+    color: #fff;
+    color: var(--accent-color);
+    color: red;
+    text-decoration: none;
+}
+
+header #subheader nav ul div {
+    display: center;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+header #subheader nav ul div img {
+    display: center;
+    float: left;
+    display: block;
+    float: center;
+}
+
+
+/*contenido*/
+
+#er {
+    display: flex;
+    width: 1407px;
+    height: 589px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background: #273d54;
+    float: center;
+}
+
+#we {
+    width: 276px;
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    left: 126px;
+    top: 498px;
+}
+
+#we button {
+    width: 276px;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 0;
+    background: #23d65f;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10%;
+    margin-left: 106px;
+}
+
+#we button:hover {
+    color: #fff;
+    color: var(--accent-color);
+    color: red;
+    text-decoration: none;
+}
+
+.col {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 28px;
+    width: 611px;
+    height: 342px;
+    float: left;
+    padding: 20px 0px 227px 85px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    float: left;
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 28px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+
+.card {
+    width: 480px;
+    height: 480px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+}
+
+.card img {
+    width: 480px;
+    height: 480px;
+    left: 772px;
+    top: 106px;
+}
+
+.card img:hover {
+    text-decoration: none;
+}
+
+.whatsapp {
+    width: 68px;
+    height: 46px;
+    display: inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 278px 64px;
+}
+
+.whatsapp img {
+    width: 68px;
+    height: 46px;
+    left: 1316;
+    top: 278;
+    fill-rule: solid;
+}
+
+.whatsapp img:hover {
+    text-decoration: none;
+}
+
+.google {
+    width: 105px;
+    height: 99px;
+    margin-top: 21px;
+    margin-left: 212px;
+    float: left;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.left h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 233px;
+    color: #000;
+    margin-top: 287px;
+}
+
+.left h5 {
+    text-align: center;
+    font-size: 11px;
+    margin-left: 143px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    margin-top: 5px;
+}
+
+.right h3 {
+    text-align: center;
+    font-size: 16px;
+    margin-right: 266px;
+    color: #000;
+    margin-top: 292px;
+}
+
+.right h5 {
+    text-align: center;
+    font-size: 11px;
+    margin-right: 146px;
+    color: #000;
+    margin-top: 8px;
+}
+
+.logo1 {
+    height: 44px;
+    width: 210px;
+    margin-left: 276px;
+    margin-top: 140px;
+}
+
+.bedoya {
+    height: 63px;
+    width: 232px;
+    margin-right: 280px;
+    margin-top: 123px;
+}
+
+.texto h1 {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    margin-top: 5px;
+    margin-left: 295px;
+}
+
+#asesoria {
+    width: 155px;
+    height: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    left: 928px;
+    top: 354px;
+}
+
+#asesoria button {
+    width: 155px;
+    height: 34;
+    color: #fff;
+    font-size: 15px;
+    background: red;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10%;
+    margin-left: 106px;
+}
+
+#asesoria button:hover {
+    color: #fff;
+    color: var(--accent-color);
+    color: blue;
+    text-decoration: none;
+}
+
+
+/*pie de pagina*/
+
+footer {
+    width: 1407px;
+    height: 72px;
+    background-color: #273d54;
+    margin-top: 987px;
+}
+
+#be {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 378px;
+    margin-top: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    float: left;
+    text-decoration: none;
+}
+
+.que {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 402px;
+    height: 72px;
+    background-color: #000;
+    margin-top: 987px;
+    margin-left: 1005px;
+}
+
+#nana {
+    width: 100%;
+    margin-left: 1075PX;
+    margin: auto;
+    display: inline;
+    float: left;
+}
+
+#nana .facebook {
+    height: 21px;
+    width: 17px;
+}
+
+#nana .facebook:hover {
+    text-decoration: none;
+}
+
+#nana .Twitter {
+    height: 17px;
+    width: 21px;
+}
+
+#nana .Twitter:hover {
+    text-decoration: none;
+}
+
+#nana .in {
+    height: 21px;
+    width: 17px;
+}
+
+#nana .in:hover {
+    text-decoration: none;
+}
+
+#nana .drive {
+    height: 16px;
+    width: 21px;
+}
+
+#nana .drive:hover {
+    text-decoration: none;
+}
+
+#nana .pro {
+    height: 17px;
+    width: 21px;
+}
+
+#nana .pro:hover {
+    text-decoration: none;
+}
+
+#nana .gmail {
+    height: 17px;
+    width: 21px;
+}
+
+#nana .gmail:hover {
+    text-decoration: none;
+}
